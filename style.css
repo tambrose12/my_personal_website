@@ -7,6 +7,7 @@ body {
     /* Do not repeat the image */
     background-size: cover;
     /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
     color: rgb(219, 214, 214);
     display: flex;
     align-items: center;
@@ -21,4 +22,25 @@ div {
     align-items: center;
     text-align: center;
 
+}
+
+div {
+    background: rgba(0, 0, 0, .25);
+    border: medium outset rgba(0, 0, 0, .25);
+    border-radius: 0.5rem;
+}
+
+h1 {
+    color: rgb(71, 70, 70);
+}
+
+button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: thin solid dodgerblue;
+    border-radius: 3px;
+    background-color: rgba(71, 70, 70, .25);
 }
